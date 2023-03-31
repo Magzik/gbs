@@ -96,6 +96,12 @@ a {
 nav {
     background-color: white;
     width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 7;
+    -webkit-box-shadow: 0 4px 24px rgb(17 50 63 / 40%);
+    box-shadow: 0 4px 24px rgb(17 50 63 / 40%);
 }
 
 a.menu {
@@ -111,6 +117,25 @@ a.menu {
 
 a.menu:hover {
     background-color: goldenrod;
+}
+
+#s2 {
+    max-width: 100%;
+    margin-left: 360px;
+    margin-top: 30px;
+    float: center;
+}
+
+#boxhead {
+    border: none;
+    text-align: center;
+    line-height: 1.1;
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 0.7em;
+    line-height: 40px;
+    display: block;
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 /* w-100 flex top-badge font12 bgBlack white */
