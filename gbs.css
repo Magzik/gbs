@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, arial;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: black;
+    height: 30px;
+    font-size: 12px;
+    color: white;
+    width: 100%;
+}
+
+#header2 {
+    background-color: black;
+    height: 120px;
+    width: 100%;
+}
+
+/*TABELA*/
+table {
+    width: 100%;
+}
+
+#th1 {
+    width: 33%;
+   
+}
+
+#th2 {
+    width: 33%;
+    color: red;
+
+}
+
+#th3 {
+    width: 33%;
+
+}
+
+#th4 {
+    width: 33%;
+
+}
+
+#th5 {
+    width: 33%;
+
+}
+
+#th6 {
+    width: 33%;
+
+}
+
+/*KONIEC TABELI*/
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*HR*/
+
+#hr1 {
+    height: 1px;
+    background-color: grey;
+    border-color: grey;
+
+}
+
+
+/*KONIEC HR*/
+
+
+#search__input {
+    height: 2.71428rem;
+    min-height: 2.71428rem;
+    border-radius: 18px;
+    background: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 0;
+    padding-left: 1.5rem;
+    width: 400px;
+    background-color: #1E1E1E;
+    border-color: black;
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+}
+
+a.menu {
+    display: inline-block;
+    width: 12.3%;
+    height: 100%;
+    padding: 15px 30px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+}
+
+a.menu:hover {
+    background-color: goldenrod;
+}
+
+/* w-100 flex top-badge font12 bgBlack white */
+/*w-33 f-33 left*/  
+/*w-33 f-33 text-center center red*/
